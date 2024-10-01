@@ -7,6 +7,9 @@ def register():
 def login():
     pass
 
+def logout():
+    pass
+
 def home():
     pass
 
