@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+  
+
+<div class="article-header" style="background-image: url('{{article.image.url}}');">
+        <div class="container">
+            <h1>{{article.title}}</h1>
+            <p>A journey into the wonders of the natural world</p>
+        </div>
+    </div>
+
+    <div class="article-container">
+        <article class="article-content">
+            <img src="{{article.image.url}}" alt="Forest Image">
+            <p>
+                Nature has always been a source of inspiration and wonder for humanity. From the lush green forests to
+                the majestic mountains and serene lakes, the natural world offers a breathtaking variety of landscapes.
+                In this article, we explore the beauty of nature, its importance, and how it enriches our lives.
+            </p>
+
+            <p>
+                Walking through a dense forest, with sunlight filtering through the leaves, one can’t help but feel a
+                sense of calm. The sounds of birds singing, the rustle of leaves underfoot, and the sight of vibrant
+                flowers all come together to create an experience that is both peaceful and rejuvenating.
+            </p>
+
+
+            <p>
+                The mountains, with their towering peaks, represent strength and majesty. Climbing a mountain is not
+                just a physical journey, but a metaphor for overcoming challenges and pushing ourselves beyond limits.
+                The view from the top is a reward that cannot be matched — a reminder of how small we are in this vast
+                universe.
+            </p>
+
+            <p>
+                We must cherish and protect nature, for it sustains us in ways we often take for granted. From the air
+                we breathe to the water we drink, nature provides essential resources that make life possible. In a
+                rapidly developing world, preserving our natural surroundings should be a priority.
+            </p>
+        </article>
+    </div>
+
+    {% endblock content %}
